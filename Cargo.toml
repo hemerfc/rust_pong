@@ -1,0 +1,11 @@
+[package]
+name = "game01"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.6.1" }
+rand = "0.8.5"
+
+[workspace]
+resolver = "2" # Important! wgpu/Bevy needs this!
